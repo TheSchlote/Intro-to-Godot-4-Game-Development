@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://bgqqh7kvq4ovv"]
+
+[ext_resource type="Texture2D" uid="uid://djwegoc3v78vy" path="res://Sprites/Player.png" id="1_q8ftj"]
+[ext_resource type="Texture2D" uid="uid://6vw1ol0hi2lb" path="res://Sprites/Coin.png" id="2_qw1is"]
+
+[node name="Player" type="Sprite2D"]
+modulate = Color(0.72549, 0.0666667, 0.72549, 1)
+texture = ExtResource("1_q8ftj")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -50)
+texture = ExtResource("2_qw1is")

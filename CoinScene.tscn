@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://6w8m0pqlo2pq"]
+
+[ext_resource type="PackedScene" uid="uid://chbrtn6tsglg5" path="res://coin.tscn" id="1_ox0kt"]
+
+[node name="CoinScene" type="Node2D"]
+
+[node name="TopMiddleCoin" parent="." instance=ExtResource("1_ox0kt")]
+position = Vector2(0, -25)
+
+[node name="BottomMiddleCoin2" parent="." instance=ExtResource("1_ox0kt")]
+position = Vector2(0, 25)
+
+[node name="FarLefCoin3" parent="." instance=ExtResource("1_ox0kt")]
+position = Vector2(-50, 0)
+rotation = 0.806342
+
+[node name="FarRightCoin4" parent="." instance=ExtResource("1_ox0kt")]
+position = Vector2(50, 0)
+rotation = 0.806342
+
+[node name="LefMiddleCoin5" parent="." instance=ExtResource("1_ox0kt")]
+position = Vector2(-15, 0)
+scale = Vector2(0.5, 0.5)
+
+[node name="RightMiddleCoin6" parent="." instance=ExtResource("1_ox0kt")]
+position = Vector2(15, 0)
+scale = Vector2(0.5, 0.5)
